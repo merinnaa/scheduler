@@ -19,6 +19,10 @@ function InterviewerList(props) {
     );
   });
 
+  InterviewerList.propTypes = {
+    interviewers: PropTypes.array.isRequired
+  };
+
   return (
     <section className="interviewers">
       <h4 className="interviewers__header text--light">Interviewer</h4>
